@@ -106,3 +106,10 @@ input[type=submit]{
     background-color: #779882;
     color: white;
 }
+
+.white-section{
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 0.3em;
+    padding-bottom: 2em;
+}
