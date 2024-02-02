@@ -29,13 +29,14 @@ header i {
     padding-bottom: 2em;
 }
 
-h1, .white-text{
+h1, .white-text, h3{
    color: white;
    padding-top: 0.5em;
 }
 
 .beige-section{
     background-color: #F3F4EF;
+    float: left;
 }
 
 h2{
@@ -44,4 +45,64 @@ h2{
 
 p{
     padding-right: 1em;
+}
+
+/* This is a CSS comment 
+
+aside{
+    display: flex;
+    margin: 1em;
+    background-color: #425348;
+    border-radius: 10px;
+    float: right;
+}
+
+.kontaktform, div{
+    display: flex;
+    padding: 0 2em 2em;
+    border-radius: 5px;
+
+}
+
+.form, label{
+    border-radius: 10px;
+}
+*/
+
+
+.container, footer{
+    display: flex;
+    padding: 0 2em 2em;
+}
+main, aside{
+    margin: 1em;
+    background-color: #F3F4EF;
+}
+
+h4, form{
+    color: white;
+}
+
+input[type=text], input[type=email], input[type=brugernavn]{
+    border-radius: 10px;
+    padding: 0.7em;
+    border-style: none;
+    margin: 0.5em;
+}
+
+.nyhed{
+    margin-top: 50px;
+    background-color: #425348;
+    padding: 2em;
+    border-radius: 30px;
+}
+
+input[type=submit]{
+    border-radius: 10px;
+    padding: 0.7em;
+    border-style: none;
+    margin: 0.5em;
+    width: 157px;
+    background-color: #779882;
+    color: white;
 }
